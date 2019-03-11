@@ -5,8 +5,8 @@ This module uses ROSEGRAPHICS to demonstrate:
   -- accessing their DATA via INSTANCE VARIABLES.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Karl.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 #
@@ -145,8 +145,8 @@ def example3():
     point2 = rg.Point(200, 50)
     rectangle = rg.Rectangle(point1, point2)
     rectangle.attach_to(window)
-square = rg.Square()
-Square.
+
+
     # ------------------------------------------------------------------
     # render: Draw ALL the objects attached to this window.
     # ------------------------------------------------------------------
