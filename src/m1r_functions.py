@@ -41,5 +41,13 @@ def hello_and_goodbye(person1, person2):
     hello(person1)
     goodbye(person2)
 
+import rosegraphics as rg
+r=30
+center=rg.Point(r,50)
+r=50
+circle=rg.Circle(center,10)
+print(center)
+print(circle)
+
 
 main()
